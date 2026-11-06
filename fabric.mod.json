@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "istore",
+  "version": "${version}",
+  "name": "iStore",
+  "description": "A storage display block that opens a searchable HUD of stored items.",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ISTORE.istore.Istore"],
+    "client": ["ISTORE.istore.IstoreClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
